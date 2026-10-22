@@ -17,7 +17,8 @@ https://github.com/Axel-sell/cutview-mises-a-jour/releases/latest
   réglages vont dans un dossier `CutView-donnees` créé à côté du fichier. Garder « -portable » dans le nom du
   fichier.
 
-CutView ne se met pas encore à jour tout seul : les nouvelles versions arrivent sur cette page.
+Depuis la 0.15.0, CutView regarde à chaque ouverture si une nouvelle version est publiée ici, la propose et l'installe à la place de l'ancienne (Aide ▸ Rechercher des mises à jour…). Chaque version est
+accompagnée d'une fiche signée (`cutview-version.json`) : CutView n'installe une mise à jour que si la signature de la fiche et l'empreinte du fichier concordent.
 
 Windows ne connaît pas encore CutView : le navigateur peut dire que le fichier est rarement téléchargé
 (choisir « Conserver »), puis Windows afficher « Windows a protégé votre ordinateur » (cliquer sur
